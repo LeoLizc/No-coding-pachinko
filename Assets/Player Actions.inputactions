@@ -1,0 +1,199 @@
+{
+    "name": "Player Actions",
+    "maps": [
+        {
+            "name": "pistones",
+            "id": "4d74a7c9-4887-453e-93a5-3d1cf132fc2b",
+            "actions": [
+                {
+                    "name": "activate r_piston",
+                    "type": "Button",
+                    "id": "d525c3d6-80e6-4b28-92dc-17665cabbcd7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "deactivare r_piston",
+                    "type": "Button",
+                    "id": "92423102-062f-4d7a-9c8d-0d387d28f1b6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "activate l_piston",
+                    "type": "Button",
+                    "id": "88dcb578-d109-4df3-b018-8add1a73dc71",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "deactivate l_piston",
+                    "type": "Button",
+                    "id": "e1d7ece4-f9dc-4b61-ba9a-96f092e2ce25",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "41fe89e3-e389-446c-9bc8-bfa685608b39",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "activate r_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a5b3d00-0e9f-4b86-a25a-a75586e5ec16",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "activate r_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aab992f5-f68f-4eb9-9304-3a6dd59e5444",
+                    "path": "<Keyboard>/d",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "deactivare r_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c1f0ab35-5b40-4051-8fe7-b6ef0c7e889c",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "deactivare r_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "28739af1-292d-4621-a86b-410cc0a455d9",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "activate l_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "636e09f9-0c2f-4a81-9b78-daf75594d068",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "activate l_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c2ace2d-ccd0-4564-821a-0fa9434bf884",
+                    "path": "<Keyboard>/a",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "deactivate l_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "027b84a0-2b37-4449-8836-ee3b04fa34ae",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "deactivate l_piston",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "difficult selector",
+            "id": "3e81b47b-b7de-41f0-89c2-ff33e967f6e7",
+            "actions": [
+                {
+                    "name": "normal",
+                    "type": "Button",
+                    "id": "83a073fd-2d15-44e4-863d-9eb361a03bdb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                },
+                {
+                    "name": "crazy",
+                    "type": "Button",
+                    "id": "5232701f-54ef-4451-9bcc-e96d440146fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "New action",
+                    "type": "PassThrough",
+                    "id": "fd2cec43-6e52-4194-b216-6d2de455e612",
+                    "expectedControlType": "Key",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f96c906-e809-49d9-8746-9bfb9135b6af",
+                    "path": "<Keyboard>/n",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "normal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01e17d00-b0dc-4eea-93a6-9e7c3ad678e7",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "crazy",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "956ea182-9b94-4b97-9edc-4ee6590b8a6c",
+                    "path": "<Keyboard>/b",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
